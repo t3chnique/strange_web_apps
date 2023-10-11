@@ -1,18 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Product Page - Online Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-description {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Product Title</h1>
-    
-    <!-- Product Image -->
-    <img src="qhtml.jpeg" alt="Product Image" style="max-width: 100%; height: auto;">
-    
-    <p>Product Description: This is a short description of the product. It provides key information about the item you are considering.</p>
-    
-    <!-- Buy Button -->
-    <button type="button">Buy Now</button>
+    <div class="container">
+        <h1>Your Product Title</h1>
+        <img class="product-image" src="qhtml.jpeg" alt="Product Image">
+        <p class="product-description">
+            Your product description goes here. This is where you can describe the features and benefits of your product in detail.
+        </p>
+        <a href="#" class="buy-button">Buy</a>
+    </div>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </body>
 </html>
